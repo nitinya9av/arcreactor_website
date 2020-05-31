@@ -22,9 +22,6 @@ const Portfolio = function() {
 			}, {
 				text: "java",
 				weight: 9
-			}, {
-				text: "arcreactor",
-				weight: 11.3
 			}
 		];
 		return words;

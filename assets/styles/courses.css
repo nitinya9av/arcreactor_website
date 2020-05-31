@@ -1,0 +1,21 @@
+
+
+#coading {
+    border: 1px solid #eee;
+    background-color: white;
+    padding-bottom: 1em;
+    background-image: url(https://source.unsplash.com/1600x900/?code,programming);
+}
+
+#coading h3 {
+    color: white;
+    font-size: 3em;
+    padding-top: 1em;
+}
+
+#coading h4 {
+    color: white;
+    font-size: 4em;
+    padding-top: 1em;
+
+}

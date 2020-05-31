@@ -71,26 +71,20 @@ h1, h2, h3, h4, h5, h6 {
 /*** About Section ***/
 
 #about {
-		margin-top: 10em;
 		border: 1px solid #eee;
 		background-color: white;
 		padding-bottom: 1em;
-}
-
-#about img {
-		max-width: 15em;
-		position: relative;
-		bottom: 7.5em;
+		background-image: url(https://source.unsplash.com/1600x900/?code,programming);
 }
 
 #about .details {
 		margin-top: -2em;
 }
 
-#about h2 {
-		color: #646464;
-		font-size: 3.8em;
-		padding-bottom: 1em;
+#about h1 {
+		color: #ee361d;
+		font-size: 7em;
+		padding-top: 1em;
 }
 
 #about span {
