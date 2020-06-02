@@ -92,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 		font-size: .7em;
 }
 
+
 #about h5 {
 		color: #8A8A8B;
 }
@@ -131,19 +132,37 @@ h1, h2, h3, h4, h5, h6 {
 	cursor: pointer;
 }
 
+/*why-learn-code*/
+#why-learn-code {
+	background-image: url(/assets/images/index/jefferson-santos-9SoCnyQmkzI-unsplash.jpg);
+}
+#why-learn-code h3 {
+	color:teal;
+	font-size: 1em;
+	padding: 0em;
+}
+#why-learn-code h2 {
+	color: white;
+	font-size: 3em;
+	padding-top: 1em;
+}
+#why-learn-code h1 {
+	color: rgb(0, 0, 0)58, 149, 149);
+	font-size: 3em;
+}
 /*** Experience ***/
 #experience {
-	background-color: #4c6d86;
+	background-color: #81bbb8;
 	padding: 6em 4em 5.6em;
 }
 
 #experience h2 {
-	color: #fff;
+	color: rgb(0, 0, 0);
 	margin-bottom: .7em;
 }
 
 #experience .tag-line {
-	color: white;
+	color: rgb(0, 0, 0);
 	font-size: 1.4em;
 }
 
@@ -272,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Footer Call-to-action ***/
 #footer-cta {
-	background-color: rgba(255, 103, 68, 0.91);
+	background-color: #6400e4;
 	padding: 6em 4em 5.6em;
 }
 

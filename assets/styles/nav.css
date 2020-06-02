@@ -9,8 +9,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
-    background-color: #4c6d86;
+    padding: 10px 10%;
+    background-color: #ffffff;
   }
   
   .logo {
@@ -18,11 +18,10 @@
   }
   
   .nav__links a,
-  .cta,
   .overlay__content a {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    color: #edf0f1;
+    color: #000000;
     text-decoration: none;
   }
   
@@ -43,9 +42,12 @@
     color: #0088a9;
   }
   
+  .cta{
+    color: white;
+  }
   .cta {
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: #6400e4;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -53,7 +55,7 @@
   }
   
   .cta:hover {
-    background-color: rgba(0, 136, 169, 0.8);
+    background-color: #6400e4;
   }
   
   /* Mobile Nav */
@@ -69,10 +71,11 @@
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: #24252a;
+    background-color: #ffffff;
     overflow-x: hidden;
     transition: width 0.5s ease 0s;
   }
+  
   
   .overlay--active {
     width: 100%;
@@ -95,7 +98,7 @@
   
   .overlay a:hover,
   .overlay a:focus {
-    color: #0088a9;
+    color: #fafafa;
   }
   .overlay .close {
     position: absolute;
